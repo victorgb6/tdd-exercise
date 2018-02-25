@@ -25,6 +25,14 @@ ShallowWrapper {
         <Connect(Wallet) />,
         <hr />,
         <Connect(Loot) />,
+        <div>
+          Powered by:
+          <a
+                    href="https://www.coindesk.com"
+          >
+                    Coin desk
+          </a>
+</div>,
       ],
     },
     "ref": null,
@@ -76,6 +84,38 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Powered by:",
+            <a
+              href="https://www.coindesk.com"
+>
+              Coin desk
+</a>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Powered by:",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Coin desk",
+              "href": "https://www.coindesk.com",
+            },
+            "ref": null,
+            "rendered": "Coin desk",
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -93,6 +133,14 @@ ShallowWrapper {
           <Connect(Wallet) />,
           <hr />,
           <Connect(Loot) />,
+          <div>
+            Powered by:
+            <a
+                        href="https://www.coindesk.com"
+            >
+                        Coin desk
+            </a>
+</div>,
         ],
       },
       "ref": null,
@@ -143,6 +191,38 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Powered by:",
+              <a
+                href="https://www.coindesk.com"
+>
+                Coin desk
+</a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Powered by:",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Coin desk",
+                "href": "https://www.coindesk.com",
+              },
+              "ref": null,
+              "rendered": "Coin desk",
+              "type": "a",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",
